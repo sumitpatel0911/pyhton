@@ -1,0 +1,58 @@
+Set objShell = CreateObject("WScript.Shell")
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "sndvol.exe"
+WScript.Sleep 1000 ' Wait for the Volume Mixer to open
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+objShell.SendKeys "^{UP}"
+WScript.Sleep 1000
+objShell.Run "msedge.exe"
+WScript.Sleep 5000
+objShell.SendKeys "https://www.youtube.com/watch?v=XrckEbsYMjE"
+WScript.Sleep 1000
+objShell.SendKeys "{ENTER}"
+WScript.Sleep 4000
+objShell.SendKeys " "
+WScript.Sleep 1000
+
+objShell.Run "msedge.exe"
+WScript.Sleep 2000
+objShell.SendKeys "https://www.instagram.com/kavyasodha_41/?hl=en"
+objShell.SendKeys "{ENTER}"
